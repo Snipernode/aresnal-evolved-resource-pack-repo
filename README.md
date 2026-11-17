@@ -70,7 +70,7 @@ enabled for auto-send, or on demand with `/arsenal pack send <player>`.
 ```json
 {
   "minecraft": "1.21.11",
-  "source_commit": "c95cb33c4027b85a2fd2c1e8a9121b9a646ae741",
+  "source_commit": "1de9f8acff36071d6e30ddae65ea37facdd09f6b",
   "artifacts": {
     "plugin": { "file": "...", "version": "...", "size": 0, "sha1": "...", "sha256": "..." },
     "resourcepack": { "file": "...", "version": "...", "size": 0, "sha1": "...", "sha256": "..." }
