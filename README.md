@@ -7,6 +7,16 @@ lives in [Snipernode/ARSENAL-EVOLVED](https://github.com/Snipernode/ARSENAL-EVOL
 The resource pack stays a **separate artifact** — it is never embedded in the
 plugin jar.
 
+## Current release
+
+This build shortens charge-free ability locks to three seconds and adds
+half-second wind-ups to Voidlance and Solar Codex. Voidlance uses a Diamond Spear
+with sneak right-click casting, while Solar Codex now shows open as ready and
+closed while locked or winding up. Chainbreaker uses an Iron Sword and throws the
+authored chain-weight projectile before damage and pull resolve. The rebuilt
+resource pack includes the updated model transforms and chain projectile; Rift
+Pierce also no longer stops on horizontal aim due to floating-point height drift.
+
 ## What is here
 
 | File | Purpose |
