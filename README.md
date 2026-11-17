@@ -81,3 +81,10 @@ enabled for auto-send, or on demand with `/arsenal pack send <player>`.
 Every artifact update should refresh the file, its `.sha1` sidecar (pack only)
 and the manifest in the **same commit**, so a server can never fetch a mismatched
 pair.
+
+## Publishing
+
+Updates are published from the source repo with `./scripts/publish-dist.sh`.
+It rebuilds both artifacts, refreshes `manifest.json`, commits and pushes in a
+single step. Servers then run `update.sh` (or `update.sh --check`) to pick up the
+new files.
