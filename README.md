@@ -9,13 +9,15 @@ plugin jar.
 
 ## Current release
 
-This build shortens charge-free ability locks to three seconds and adds
-half-second wind-ups to Voidlance and Solar Codex. Voidlance uses a Diamond Spear
-with sneak right-click casting, while Solar Codex now shows open as ready and
-closed while locked or winding up. Chainbreaker uses an Iron Sword and throws the
-authored chain-weight projectile before damage and pull resolve. The rebuilt
-resource pack includes the updated model transforms and chain projectile; Rift
-Pierce also no longer stops on horizontal aim due to floating-point height drift.
+This release adds the authored slash, impact and pulse models to the six weapon
+sets with dedicated VFX: Inferno Cleaver, Chainbreaker, Soul Harvester, Titan
+Gauntlet, Solar Codex and Aegis Core. Cast, trail, impact, aura, guard and counter
+effects now play tracked start/peak/fade `ItemDisplay` phases while keeping their
+existing sounds. The resource pack contains all 18 exported model and texture
+pairs; `particles.density: 0` still suppresses both particle shapes and model
+effects. The earlier casting-pace, weapon-presentation, Voidlance spear, Solar
+Codex open/closed state, Chainbreaker projectile and Rift Pierce direction fixes
+remain in place.
 
 ## What is here
 
@@ -80,7 +82,7 @@ enabled for auto-send, or on demand with `/arsenal pack send <player>`.
 ```json
 {
   "minecraft": "1.21.11",
-  "source_commit": "1de9f8acff36071d6e30ddae65ea37facdd09f6b",
+  "source_commit": "4b44be8ad4033eecd972f214c83388a1658ad77f",
   "artifacts": {
     "plugin": { "file": "...", "version": "...", "size": 0, "sha1": "...", "sha256": "..." },
     "resourcepack": { "file": "...", "version": "...", "size": 0, "sha1": "...", "sha256": "..." }
