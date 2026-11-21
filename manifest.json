@@ -2,7 +2,7 @@
   "name": "Arsenal: Evolved",
   "minecraft": "1.21.11",
   "source_repo": "https://github.com/Snipernode/ARSENAL-EVOLVED",
-  "source_commit": "770f8f902d48a79c46fcad3ea451767e22878e4a",
+  "source_commit": "8c7f13fbcd56766b02a2a1185ea61ea5997d0c03",
   "updated": "2026-11-21",
   "artifacts": {
     "plugin": {
