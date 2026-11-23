@@ -7,9 +7,9 @@
   "artifacts": {
     "plugin": {
       "file": "ArsenalEvolved-0.1.0-SNAPSHOT.jar",
-      "size": 229443,
-      "sha1": "06a5d612926971f63b4deafd41c60c33e493d2d8",
-      "sha256": "5d5356f79c6b89050989b71e58b7a21eb54777d8a2c0b139c41983781852d689",
+      "size": 236075,
+      "sha1": "54aba67da62f987645ae87db1a27424319e6aeb0",
+      "sha256": "5b13c2149e281924c89afb9341454c5e5971e5ae88f41741268d42142581534f",
       "version": "0.1.0-SNAPSHOT"
     },
     "resourcepack": {
