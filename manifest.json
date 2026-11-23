@@ -2,14 +2,14 @@
   "name": "Arsenal: Evolved",
   "minecraft": "1.21.11",
   "source_repo": "https://github.com/Snipernode/ARSENAL-EVOLVED",
-  "source_commit": "57eb0e9ac939498a12d98a77a3918f0de81b2100",
+  "source_commit": "240e256561f73187a6864fce4ce9bff03431f86f",
   "updated": "2026-11-23",
   "artifacts": {
     "plugin": {
       "file": "ArsenalEvolved-0.1.0-SNAPSHOT.jar",
-      "size": 236075,
-      "sha1": "54aba67da62f987645ae87db1a27424319e6aeb0",
-      "sha256": "5b13c2149e281924c89afb9341454c5e5971e5ae88f41741268d42142581534f",
+      "size": 238930,
+      "sha1": "6f15c5d74ba54192afeb4d1718cf50f4b2b39890",
+      "sha256": "c8ae7032e964ceb1e58b07ad46fbc67aaa92184dee632db25d8a2784e8d4499c",
       "version": "0.1.0-SNAPSHOT"
     },
     "resourcepack": {
